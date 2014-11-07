@@ -76,6 +76,10 @@
   <ItemGroup>
     <ClCompile Include="8-puzzle.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="close.txt" />
+    <None Include="path.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
